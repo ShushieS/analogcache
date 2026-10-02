@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.riley.analogfix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "NativeRadioStreamerMixin",
+    "MediaDurationProberMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

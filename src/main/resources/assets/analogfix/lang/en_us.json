@@ -1,0 +1,20 @@
+{
+  "analogfix.configuration.title": "AnalogFix",
+  "analogfix.configuration.enabled": "Enable Audio Cache",
+  "analogfix.configuration.enabled.tooltip": "Download each track in full before it plays, and play it from disk. When off, Analog Audio streams as normal.",
+  "analogfix.configuration.maxCacheSizeMB": "Max Cache Size (MB)",
+  "analogfix.configuration.maxCacheSizeMB.tooltip": "Least recently played tracks are deleted when the cache grows past this size.",
+  "analogfix.configuration.audioFormat": "Cached Audio Format",
+  "analogfix.configuration.audioFormat.tooltip": "MP3: keep only the audio, converted to mp3 (video is dropped). ORIGINAL: keep the downloaded file as-is.",
+
+  "message.analogfix.downloading": "Downloading track...",
+
+  "gui.analogfix.clear_cache": "Clear Cache (%s)",
+  "gui.analogfix.clear_cache.confirm.title": "Clear Analog Audio cache?",
+  "gui.analogfix.clear_cache.confirm.message": "This stops all Analog Audio playback and deletes %s cached tracks (%s). They will be downloaded again the next time they play.",
+  "gui.analogfix.clear_cache.done.title": "Audio cache cleared",
+  "gui.analogfix.clear_cache.done.message": "Deleted %s files (%s).",
+  "gui.analogfix.clear_cache.done.locked": "%s %s files are still in use and will be deleted on next launch.",
+
+  "command.analogfix.cache.info": "Audio cache: %s tracks, %s (limit %s) in %s"
+}
